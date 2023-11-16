@@ -39,3 +39,32 @@ function potencia(){
     }
 
 }
+
+function cor(){
+    let n=3;
+
+    while(n>=1){
+        alert("cuidado");
+        n=n-1;
+    }
+}
+
+function somatoria(){
+    let n=5;
+    let fat=n;
+    let pote=0;
+    let i=n;
+
+    while(n>=1){
+        pote= Math.pow(2,n);
+        i=n;
+        while(n>1){
+            fat=fat*(i-1);
+            i=i-1;
+        }
+        soma=soma+(pote*fat);
+        n=n-1;
+    }
+}
+
+
